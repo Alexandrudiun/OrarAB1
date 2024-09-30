@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizualizare Orar PDF</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1em;
+        }
+        #pdf-viewer {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        footer {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Orar AB1</h1>
+        </header>
+        <main>
+            <iframe id="pdf-viewer" src="https://cdn.discordapp.com/attachments/754073349977669692/1290189320245739530/Orar1AB.pdf?ex=66fb8df0&is=66fa3c70&hm=ccbb8ed6b04177411cbf507911739d0bf40d4a3c39c39f5ee9cd80ff19e180b7&" title="Vizualizare Orar PDF"></iframe>
+        </main>
+        <footer>
+         
+        </footer>
+    </div>
+</body>
+</html>
